@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Change Scream</string>
+    <string name="hello_world">Switch Colors</string>
+    <string name="title_activity_shout">ShoutActivity</string>
+    <string name="goodbye_world">Switch Screens</string>
+
+</resources>

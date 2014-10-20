@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dominionRed">#C80000</color>
+    <color name="raynorBlack">#000000</color>
+    <color name="tardisBlue">#102372</color>
+    <color name="linkTunicGreen">#801DAB6C</color>
+    <color name="annoyingOrange">#FF6633</color>
+    <color name="kerriganPurple">#660099</color>
+    
+</resources>
