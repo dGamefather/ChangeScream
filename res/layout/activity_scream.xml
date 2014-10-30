@@ -13,15 +13,6 @@
         android:visibility="invisible" />
 
     <Button
-        android:id="@+id/firstScreenButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="91dp"
-        android:text="@string/hello_world" />
-
-    <Button
         android:id="@+id/firstScreenSwap"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -29,5 +20,27 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:text="@string/goodbye_world" />
+
+    <TextView
+        android:id="@+id/someTextStuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/firstScreenButton"
+        android:layout_below="@+id/firstScreenSwap"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/soundsText"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/firstScreenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" />
 
 </RelativeLayout>
